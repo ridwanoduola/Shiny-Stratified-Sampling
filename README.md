@@ -11,10 +11,10 @@ Developed by **Ridwan Oduola @Moor Metrics**.
 - Interactive controls for number of bins and substratum selection
 
 ## Project Structure
-app.R # Main Shiny application scriptn\
-sdt.csv # Sample dataset used in the app
-README.md # Project documentation
-.gitignore # Ignored files for Git tracking
+``app.R`` # Main Shiny application script\
+``sdt.csv`` # Sample dataset used in the app\
+``README.md`` # Project documentation\
+``.gitignore`` # Ignored files for Git tracking\
 
 ## Data
 The application uses a dataset (sdt.csv) where:
@@ -53,5 +53,6 @@ You can deploy the app to shinyapps.io for free:
 ---
 Author: Ridwan Oduola
 Organisation: Moor Metrics
+
 
 
