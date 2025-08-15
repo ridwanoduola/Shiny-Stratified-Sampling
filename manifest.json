@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "shiny",
+    "primary_r": "app.R",
+    "title": "Two-Stage Stratified Sampling Shiny App",
+    "author": {
+      "name": "Ridwan Oduola",
+      "organization": "Moor Metrics"
+    },
+    "description": "An interactive R Shiny web application for visualizing histograms, density plots, and calculating estimates for two-stage stratified sampling."
+  },
+  "packages": {
+    "shiny": {},
+    "dplyr": {},
+    "ggplot2": {},
+    "tidyr": {}
+  },
+  "files": [
+    "app.R",
+    "sdt.csv"
+  ],
+  "entrypoint": "app.R",
+  "locale": "en_US",
+  "platform": {
+    "R": ">=4.0.0"
+  }
+}
