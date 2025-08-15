@@ -30,26 +30,27 @@ The application uses a dataset (sdt.csv) where:
 2. **Install R and RStudio (if not already installed).**
 
 3. **Install required R packages:**
-install.packages(c("shiny", "dplyr", "ggplot2", "tidyr"))
-
-4. Run the app in RStudio:
-
+```bash
+   install.packages(c("shiny", "dplyr", "ggplot2", "tidyr"))
+```
+4. **Run the app in RStudio:**
 - Open app.R
-
 - Click **Run App**
 
 Or, from R console:
-
-shiny::runApp("path/to/Shiny-Stratified-Sampling")
+```bash
+   shiny::runApp("path/to/Shiny-Stratified-Sampling")
+```
 
 ## Deployment
 
 You can deploy the app to shinyapps.io for free:
 
-library(rsconnect)
-rsconnect::deployApp("path/to/Shiny-Stratified-Sampling")
-
+```bash
+   library(rsconnect)
+   rsconnect::deployApp("path/to/Shiny-Stratified-Sampling")
+```
 ---
 Author: Ridwan Oduola
-
 Organisation: Moor Metrics
+
