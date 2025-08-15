@@ -7,7 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-
 library("shiny")
 library("dplyr")
 library("ggplot2")
@@ -205,6 +204,7 @@ server <- function(input, output) {
 
 # Run the application----
 shinyApp(ui = ui, server = server)
+
 
 
 
