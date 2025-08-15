@@ -17,7 +17,7 @@ Developed by **Ridwan Oduola @Moor Metrics**.
 ``.gitignore`` # Ignored files for Git tracking
 
 ## Data
-The application uses a dataset (sdt.csv) where:
+The application uses a dataset (``sdt.csv``) where:
 - **First column:** Stratum ID
 - **Columns 2–6:** Observations for different substrata
 
@@ -51,8 +51,9 @@ You can deploy the app to shinyapps.io for free:
    rsconnect::deployApp("path/to/Shiny-Stratified-Sampling")
 ```
 ---
-Author: Ridwan Oduola
+Author: Ridwan Oduola\
 Organisation: Moor Metrics
+
 
 
 
