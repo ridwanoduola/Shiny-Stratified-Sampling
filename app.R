@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-rsconnect::writeManifest()
+rsconnect::writeManifest(contentCategory = "site")
 library("shiny")
 library("dplyr")
 library("ggplot2")
@@ -204,4 +204,5 @@ server <- function(input, output) {
 
 # Run the application----
 shinyApp(ui = ui, server = server)
+
 
