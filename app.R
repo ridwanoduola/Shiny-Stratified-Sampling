@@ -106,7 +106,7 @@ Straified_2s <- function(df, Nh, Mh){
 ui <- fluidPage(
 
     # Application title
-    titlePanel("SHINY BY Ridwan Oduola @MOOR METRICS"),
+    titlePanel("Shiny By Ridwan Oduola"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
@@ -204,6 +204,7 @@ server <- function(input, output) {
 
 # Run the application----
 shinyApp(ui = ui, server = server)
+
 
 
 
