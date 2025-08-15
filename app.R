@@ -1,4 +1,4 @@
-# Library used and Working Directory----
+# Library used----
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 #
@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+rsconnect::writeManifest()
 library("shiny")
 library("dplyr")
 library("ggplot2")
@@ -204,3 +204,4 @@ server <- function(input, output) {
 
 # Run the application----
 shinyApp(ui = ui, server = server)
+
